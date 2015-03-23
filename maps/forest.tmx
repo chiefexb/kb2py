@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="64" height="64" tilewidth="96" tileheight="60">
+ <tileset firstgid="1" name="wood" tilewidth="96" tileheight="60">
+  <image source="../../Map-Tiler/wood.png" width="768" height="480"/>
+ </tileset>
+ <tileset firstgid="65" name="mountain" tilewidth="96" tileheight="60">
+  <image source="../../Map-Tiler/mountain.png" width="768" height="480"/>
+ </tileset>
+ <tileset firstgid="129" name="water" tilewidth="96" tileheight="60">
+  <image source="../../Map-Tiler/water.png" width="768" height="480"/>
+ </tileset>
+ <layer name="Слой тайлов 1" width="64" height="64">
+  <data encoding="base64" compression="zlib">
+   eJzt0bEJACAQBMEHE8HIlqzOsjW0An1wgsn3uBkREwAAAAAAAAAAAAAAAAASK1tN0PFKO/aPBD239c//B+AfC1qlfTo=
+  </data>
+ </layer>
+ <objectgroup name="Слой объектов 1" width="64" height="64"/>
+</map>
