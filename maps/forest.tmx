@@ -1,18 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" width="64" height="64" tilewidth="96" tileheight="60">
- <tileset firstgid="1" name="wood" tilewidth="96" tileheight="60">
-  <image source="../../Map-Tiler/wood.png" width="768" height="480"/>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="64" height="64" tilewidth="96" tileheight="60" nextobjectid="1">
+ <tileset firstgid="1" name="bg" tilewidth="96" tileheight="60">
+  <image source="bg.png" width="192" height="120"/>
  </tileset>
- <tileset firstgid="65" name="mountain" tilewidth="96" tileheight="60">
-  <image source="../../Map-Tiler/mountain.png" width="768" height="480"/>
+ <tileset firstgid="5" name="water" tilewidth="96" tileheight="60">
+  <image source="water.png" width="768" height="480"/>
  </tileset>
- <tileset firstgid="129" name="water" tilewidth="96" tileheight="60">
-  <image source="../../Map-Tiler/water.png" width="768" height="480"/>
+ <tileset firstgid="69" name="subject1" tilewidth="96" tileheight="60">
+  <image source="subject1.png" width="384" height="240"/>
  </tileset>
- <layer name="Слой тайлов 1" width="64" height="64">
+ <tileset firstgid="85" name="subject2" tilewidth="96" tileheight="60">
+  <image source="subject2.png" width="384" height="240"/>
+ </tileset>
+ <tileset firstgid="101" name="wood" tilewidth="96" tileheight="60">
+  <image source="wood.png" width="768" height="480"/>
+ </tileset>
+ <tileset firstgid="165" name="desert" tilewidth="96" tileheight="60">
+  <image source="desert.png" width="768" height="480"/>
+ </tileset>
+ <tileset firstgid="229" name="mountain" tilewidth="96" tileheight="60">
+  <image source="mountain.png" width="768" height="480"/>
+ </tileset>
+ <layer name="Слой тайлов 2" width="64" height="64">
   <data encoding="base64" compression="zlib">
-   eJzt0bEJACAQBMEHE8HIlqzOsjW0An1wgsn3uBkREwAAAAAAAAAAAAAAAAASK1tN0PFKO/aPBD239c//B+AfC1qlfTo=
+   eJztzrENAAAMwjDE/0d36g0sjuQ9TVIAAAAAAAAAAAAAAAAAAAAmvvUHewez2B/9
   </data>
  </layer>
- <objectgroup name="Слой объектов 1" width="64" height="64"/>
+ <layer name="Слой тайлов 1" width="64" height="64">
+  <data encoding="base64" compression="zlib">
+   eJzt1b0NwjAQhuGrSVr2oQo9DGFR8BOJAbIOFbABIzECZyVuLJxQODorvMWjFE7xfT47qUWkBgAAAAAAAAAAAAAAAAAAAAAAAIw1BWSw7P5v/VeDJnIuIFtOb5FOyXroW4lsPN/1FHW/6LttAZlziufrOXVQbWLdOnOu3q6fqWyjfsdE7yX1dyPzDXci3IH9Avt/m/FV+vMwdRass+cwdr6fIq+bPh+Jdevsc/QP3wB/3u8T+2Odfa79CP83nX8Xz3638P5B9QPrjCjHBwgY5lg=
+  </data>
+ </layer>
 </map>
