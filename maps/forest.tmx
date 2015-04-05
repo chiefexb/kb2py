@@ -6,11 +6,11 @@
  <tileset firstgid="5" name="water" tilewidth="96" tileheight="60">
   <image source="water.png" width="768" height="480"/>
  </tileset>
- <tileset firstgid="69" name="subject1" tilewidth="96" tileheight="60">
-  <image source="subject1.png" width="384" height="240"/>
- </tileset>
- <tileset firstgid="85" name="subject2" tilewidth="96" tileheight="60">
+ <tileset firstgid="69" name="subject2" tilewidth="96" tileheight="60">
   <image source="subject2.png" width="384" height="240"/>
+ </tileset>
+ <tileset firstgid="85" name="subject1" tilewidth="96" tileheight="60">
+  <image source="subject1.png" width="384" height="240"/>
  </tileset>
  <tileset firstgid="101" name="wood" tilewidth="96" tileheight="60">
   <image source="wood.png" width="768" height="480"/>
@@ -21,14 +21,14 @@
  <tileset firstgid="229" name="mountain" tilewidth="96" tileheight="60">
   <image source="mountain.png" width="768" height="480"/>
  </tileset>
- <layer name="Слой тайлов 2" width="64" height="64">
+ <layer name="layer2" width="64" height="64">
   <data encoding="base64" compression="zlib">
-   eJztzrENAAAMwjDE/0d36g0sjuQ9TVIAAAAAAAAAAAAAAAAAAAAmvvUHewez2B/9
+   eJztw8EJAAAMA6Ej+w/dMfpRcNVUVVVVVVVVVVVVVVVVVVXV1we8ACAB
   </data>
  </layer>
- <layer name="Слой тайлов 1" width="64" height="64">
+ <layer name="layer1" width="64" height="64" opacity="0.97">
   <data encoding="base64" compression="zlib">
-   eJzt1b0NwjAQhuGrSVr2oQo9DGFR8BOJAbIOFbABIzECZyVuLJxQODorvMWjFE7xfT47qUWkBgAAAAAAAAAAAAAAAAAAAAAAAIw1BWSw7P5v/VeDJnIuIFtOb5FOyXroW4lsPN/1FHW/6LttAZlziufrOXVQbWLdOnOu3q6fqWyjfsdE7yX1dyPzDXci3IH9Avt/m/FV+vMwdRass+cwdr6fIq+bPh+Jdevsc/QP3wB/3u8T+2Odfa79CP83nX8Xz3638P5B9QPrjCjHBwgY5lg=
+   eJzt289KAzEQBvC5CbYXEd/Hp3BPKqhQPGy1UO99HQ9qfQNfSCmidyeYwTDmT62wkyXf4UcKTUq+TLK9ZKdENG3cSYH1/IbI3/n2otH8oqO287e6/y8bzx/Sa2E9vyGyd0pL+V3eU3bGzhvMr+vf0vkvPfuR336OAAAAAAAAAAAAAAAAAAAAAAAAMF77Aeu5DJ37gP5/H29M9/ikzmHuOXvbMceY7jEeUvwOZs8+2fsf11D/zk0FGXNczTdEq00w56vg86vqL32PfN4J0bEjeybMfst9FxVkLNVezzt3Hzf2/Yxds8UW42si571PzHuu2tl3TX/dWU+Nrzm/Pvcuo9vbH0yefZKr99lT9Q3Pjxs7hvdZpPaP9POccu2S3XEe6Se1j9V46fdDaS9YZ43VXt47fPA5pLapMbn9/Uz0cs/tOvG9dd7c3t/bcozOJM8Atz+eCutjnTdm4u06Pvx/4/qvdO3D91qtsw6xjjnWc4R6fAFZ1iVr
   </data>
  </layer>
 </map>
